@@ -1,0 +1,121 @@
+{% extends "eserSite/layout/basic.html" %}
+{% load i18n %}
+{% block mainPage %}
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+{% for v in video_single%}
+    <div class="banner-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="banner-wrap justify-content-between align-items-center">
+                                <div class="left-wrap">
+                                    <h2>{{v.title}}</h2>
+                                    <p>{{v.description}}</p>
+                                </div>
+                                <div class="right-wrap" style="background-image: url(../../../media/{{v.image}});"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+ 
+            <!-- Video player -->
+            <div class="Video">
+                <div class="container mt-3">
+                    <div class="row justify-content-center">
+                        <video id="example-player" controls preload="auto" width="750" height="380" >
+                            <source src="../../../media/{{v.video_file}}" type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+            </div>
+ {% endfor%}
+            <div class="slide-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 text-left mb-4 mt-4">
+                            <h2>{%trans 'Teklip!'%}</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="slide-slider owl-carousel owl-theme">
+                                {% for w in video_all%}
+                                <div class="owl-items">
+                                    <a class="slide-one videoSingle" id="{{w.pk}}" href="/VideoSingle/{{w.pk}}">
+                                        <div class="slide-image" ><img src="../../../media/{{w.image}}" alt="image"></div>
+                                        <div class="slide-content">
+                                            <h2>{{w.title}}</h2>
+                                            <p>{{w.description}}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                {% endfor%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{% endblock %}
+{% block javascript %}
+    <script src="../../../static/eserSite/js/plugin.js"></script>
+    <script src="../../../static/eserSite/js/jquery.easing.1.3.js"></script>
+    <script src="../../../static/eserSite/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../static/eserSite/js/scripts.js"></script>
+    <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+    <script>var player = fluidPlayer('example-player');</script>
+    <script>
+       document.getElementById("language_selector").addEventListener("change", () => {
+            $.ajax({
+                url: '/' + document.getElementById("language_selector").value,
+                type: 'get',
+                success: function (response) {
+                    $('.main_page').html(response)
+                }
+                })
+        });
+
+        $('.language_type').click(function () {
+        $.ajax({
+            url: '/' + this.id,
+            type: 'get',
+            success: function (response) {
+                $('.main_page').html(response)
+            }
+        })
+        })
+
+        $('.vacanciesInfo').click(function () {
+        $.ajax({
+            url: '/'+'vacancies',
+            type: 'get',
+            success: function (response) {
+                $('.main_page').html(response)
+            }
+            })
+        })
+
+        $('.add_comment').click(function () {
+            $.ajax({
+                url: '/bidCreate',
+                type: 'get',
+                success: function (response) {
+                    $('.modal-body').html(response)
+                }
+            })
+
+        })
+
+    </script>
+
+{% endblock javascript %}

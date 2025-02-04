@@ -1,0 +1,40 @@
+{% load i18n %}
+{% load static %}
+    <link rel="stylesheet"  href="{% static 'eserSite/css/style.css' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/images/eser_logo_write.png' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/css/video-player.css' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/css/custom.css' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/css/themify-icons.css' %}">
+{% block mainPage %}
+
+<h5 style="color: black" align="center">{%trans 'Habarlaşmak'%}</h5>
+<hr style="color: black">
+<form action="{% url 'eserSite:bidCreate'%}" method="post">
+    {% csrf_token %}
+
+            <p>
+                <input type="text" name="name" id="id_name" class="form-control" placeholder="{%trans 'Adyňyz'%}"
+                       required>
+
+            </p>
+
+            <p>
+                <input type="text" name="surname" id="id_surname" class="form-control" placeholder="{%trans 'Familiýaňyz'%}"
+                       required>
+            </p>
+
+
+
+                                <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1">+993</span>
+                              <input type="text" class="form-control" placeholder="{%trans 'Telefon belgiňiz'%}" id="id_phone_number" name="phone_number" aria-label="Введите номер телефона" aria-describedby="basic-addon1">
+                    </div>
+
+
+            <p>
+                <input type="text" name="messages" maxlength="200" id="id_messages" class="form-control" placeholder="{%trans 'Hatyň mazmuny'%}"
+                       required>
+            </p>
+    <button type="submit" class="btn btn-primary" style="width: 100%;margin-top:10px ">{%trans 'Ugrat'%}</button>
+</form>
+{% endblock %}

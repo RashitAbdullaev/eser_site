@@ -1,0 +1,97 @@
+{% load i18n %}
+{% load static %}
+    <link rel="stylesheet"  href="{% static 'eserSite/css/custom.css' %}">
+	<link rel="stylesheet"  href="{% static 'eserSite/css/teacher_cours.css' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/css/themify-icons.css' %}">
+{% block mainPage %}
+    <!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Сектор для курсов-->
+<section id="content">
+			<div class="content-wrap p-0" style="overflow: visible;">
+				<div class="section topmargin-lg parallax" >
+					<div class="container">
+						<div class="heading-block border-bottom-0 mb-5 center">
+							<h3>{%trans 'Okuwyň aýratynlyklary!'%}</h3>
+						</div>
+
+						<div class="clear"></div>
+						<h3>{%trans 'Çagalar üçin iňlis dili'%}</h3>
+						<hr>
+						<div class="row mt-2">
+							{% for lets_go in lets_go%}
+							<div class="col-md-4 mb-5">
+								<div class="card course-card hover-effect border-0">
+									<a href="#"><img class="card-img-top" src="../../../media/{{lets_go.course_images}}" alt="Card image cap"></a>
+									<div class="card-body">
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">{{lets_go.course_title}}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">{{lets_go.category.category}}</a></p>
+										<p class="card-text text-black-50 mb-1">{{lets_go.course_description}}</p>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+
+						<h3>{%trans 'Ulylar üçin English File'%}</h3>
+						<hr>
+						<div class="row mt-2">
+							{% for english_file in english_file%}
+							<div class="col-md-4 mb-5">
+								<div class="card course-card hover-effect border-0">
+									<a href="#"><img class="card-img-top" src="../../../media/{{english_file.course_images}}" alt="Card image cap"></a>
+									<div class="card-body">
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">{{english_file.course_title}}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">{{english_file.category.category}}</a></p>
+										<p class="card-text text-black-50 mb-1">{{english_file.course_description}}</p>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+						<h3>{%trans 'Ulylar üçin HEADWAY'%}</h3>
+						<hr>
+						<div class="row mt-2">
+							{% for headway in headway%}
+							<div class="col-md-4 mb-5">
+								<div class="card course-card hover-effect border-0">
+									<a href="#"><img class="card-img-top" src="../../../media/{{headway.course_images}}" alt="Card image cap"></a>
+									<div class="card-body">
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">{{headway.course_title}}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">{{headway.category.category}}</a></p>
+										<p class="card-text text-black-50 mb-1">{{headway.course_description}}</p>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+						<h3>IELTS</h3>
+						<hr>
+						<div class="row mt-2">
+							{% for ielts in ielts%}
+							<div class="col-md-4 mb-5">
+								<div class="card course-card hover-effect border-0">
+									<a href="#"><img class="card-img-top" src="../../../media/{{ielts.course_images}}" alt="Card image cap"></a>
+									<div class="card-body">
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">{{ielts.course_title}}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">{{ielts.category.category}}</a></p>
+										<p class="card-text text-black-50 mb-1">{{ielts.course_description}}</p>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+</section>
+{% endblock %}

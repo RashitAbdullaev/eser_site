@@ -1,0 +1,44 @@
+{% load i18n %}
+{% load static %}
+    <link rel="stylesheet"  href="{% static 'eserSite/css/custom.css' %}">
+	<link rel="stylesheet"  href="{% static 'eserSite/css/teacher_cours.css' %}">
+    <link rel="stylesheet"  href="{% static 'eserSite/css/themify-icons.css' %}">
+{% block mainPage %}
+    <!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Сектор для курсов-->
+<section id="content">
+			<div class="content-wrap p-0" style="overflow: visible;">
+				<div class="section topmargin-lg parallax " >
+					<div class="container">
+						<div class="heading-block border-bottom-0 mb-5 center">
+							<h3>{%trans 'Wakant ýerler'%}</h3>
+						</div>
+						<div class="clear"></div>
+						<div class="row mt-2">
+							{% for vacancies in vacancies%}
+							<div class="col-md-4 mb-5">
+								<div class="card course-card hover-effect border-0 ">
+									<div class="card-body">
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">{{vacancies.vacancies_title}}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50"><strong>{%trans 'Iş tejribesi: '%}</strong>{{vacancies.vacancies_experience}}</a></p>
+										<p class="card-text text-black-50 mb-1"><strong>{%trans 'Talap: '%}</strong>{{vacancies.vacancies_requirements}}</p>
+									</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+</section>
+{% endblock %}

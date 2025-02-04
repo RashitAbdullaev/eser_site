@@ -1,0 +1,22 @@
+.logoText{
+    color:#6c757d;
+    line-height: 1em;
+    font-size: 12px;
+}
+h2{
+font-size: 1.8rem !important;
+}
+   
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin-left: 7px;
+}

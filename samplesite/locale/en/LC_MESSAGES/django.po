@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-27 10:06+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\eserSite\templates\eserSite\BidCreate.html:10
+#: .\eserSite\templates\eserSite\layout\basic.html:81
+msgid "Habarlaşmak"
+msgstr "Contact us"
+
+#: .\eserSite\templates\eserSite\BidCreate.html:16
+msgid "Adyňyz"
+msgstr "First name"
+
+#: .\eserSite\templates\eserSite\BidCreate.html:22
+msgid "Familiýaňyz"
+msgstr " Surname"
+
+#: .\eserSite\templates\eserSite\BidCreate.html:30
+msgid "Telefon belgiňiz"
+msgstr "Phone number"
+
+#: .\eserSite\templates\eserSite\BidCreate.html:35
+msgid "Hatyň mazmuny"
+msgstr "Message"
+
+
+#: .\eserSite\templates\eserSite\BidCreate.html:38
+msgid "Ugrat"
+msgstr "Send"
+
+#: .\eserSite\templates\eserSite\ChinePage.html:24
+#: .\eserSite\templates\eserSite\EnglandPage.html:24
+#: .\eserSite\templates\eserSite\GermanyPage.html:24
+#: .\eserSite\templates\eserSite\KompPage.html:24
+#: .\eserSite\templates\eserSite\MathPage.html:24
+#: .\eserSite\templates\eserSite\RussiaPage.html:24
+msgid "Okuwyň aýratynlyklary!"
+msgstr "Learning features"
+
+#: .\eserSite\templates\eserSite\ChinePage.html:28
+msgid "Hytaý dili ulylar üçin"
+msgstr "Chinese for adult learners"
+
+#: .\eserSite\templates\eserSite\EnglandPage.html:28
+msgid "Çagalar üçin iňlis dili"
+msgstr "English for kids"
+
+#: .\eserSite\templates\eserSite\EnglandPage.html:45
+msgid "Ulylar üçin English File"
+msgstr "English File for adult learners"
+
+#: .\eserSite\templates\eserSite\EnglandPage.html:61
+msgid "Ulylar üçin HEADWAY"
+msgstr "HEADWAY for adult learners"
+
+#: .\eserSite\templates\eserSite\GermanyPage.html:28
+msgid "Nemes dili ulylar üçin 6 aý"
+msgstr "Gearman for adult learners 6 months"
+
+#: .\eserSite\templates\eserSite\KompPage.html:28
+msgid "Kompýuterlaryň esaslary"
+msgstr "Basic of computer science"
+
+#: .\eserSite\templates\eserSite\KompPage.html:45
+msgid "Dizaýn"
+msgstr "Design "
+
+#: .\eserSite\templates\eserSite\KompPage.html:61
+msgid "Web dizaýn we progrimmleme"
+msgstr " Web design and coding"
+
+#: .\eserSite\templates\eserSite\MathPage.html:28
+msgid "Ulylar we çagalar üçin matematika"
+msgstr "Math for kids and adults"
+
+#: .\eserSite\templates\eserSite\MathPage.html:45
+msgid "SAT synag boýunça matematika"
+msgstr " SAT exam preparation"
+
+
+#: .\eserSite\templates\eserSite\MathPage.html:61
+msgid "Fizika"
+msgstr " Physics"
+
+#: .\eserSite\templates\eserSite\RussiaPage.html:28
+msgid "Rus dili çagalar üçin 3 aý"
+msgstr " Russian for kids 3 months"
+
+#: .\eserSite\templates\eserSite\RussiaPage.html:44
+msgid "Ulylar we çagalar üçin rus dili"
+msgstr " Russian for kids and adult learners"
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:19
+msgid "Tejribeli Mugallymlar!"
+msgstr " High experienced instructors"
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:20
+msgid "Mugallymlarymyz hakda ähli maglumatlar"
+msgstr "Learn more about instructors"
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:33
+msgid "Iş tejribesi:"
+msgstr " Experience"
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:33
+msgid "ýyl"
+msgstr " Year"
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:34
+msgid "Bilimi:"
+msgstr " Education"
+
+#: .\eserSite\templates\eserSite\VideoList.html:20
+msgid "Çäreler!"
+msgstr " Activities"
+
+#: .\eserSite\templates\eserSite\VideoList.html:21
+msgid "Eser okuw merkezinde geçirilýän çäreler bilen tanyşyp bilersiňiz"
+msgstr "Learn more about activities at Eser"
+
+#: .\eserSite\templates\eserSite\VideoSingle.html:47
+msgid "Teklip!"
+msgstr "Your suggestions"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:84
+#: .\eserSite\templates\eserSite\layout\basic.html:163
+msgid "Kurslar"
+msgstr "Courses"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:85
+#: .\eserSite\templates\eserSite\mainPage.html:52
+msgid "Iňlis dili"
+msgstr "English language"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:86
+#: .\eserSite\templates\eserSite\mainPage.html:74
+msgid "Nemes dili"
+msgstr "German language"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:87
+#: .\eserSite\templates\eserSite\mainPage.html:59
+msgid "Hytaý dili"
+msgstr " Chinese language"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:88
+#: .\eserSite\templates\eserSite\mainPage.html:67
+msgid "Rus dili"
+msgstr "Russian language"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:89
+msgid "Kompýuter"
+msgstr "Computer science"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:90
+#: .\eserSite\templates\eserSite\mainPage.html:88
+msgid "Matematika"
+msgstr "Math"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:95
+msgid "Mugalymlar"
+msgstr "Instructors"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:98
+#: .\eserSite\templates\eserSite\layout\basic.html:164
+msgid "Çäreler"
+msgstr "Activities"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:100
+msgid "Admin"
+msgstr "Admin"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:146
+msgid "Bize sotsial media agza boluň"
+msgstr "Follow us on Social Media"
+
+
+#: .\eserSite\templates\eserSite\layout\basic.html:152
+msgid "Habarlaşmak üçin"
+msgstr "Contact us"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:160
+msgid "Kompaniýa"
+msgstr "Company"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:162
+msgid "Wakansiýalar"
+msgstr " Vacancies"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:165
+msgid "Mugallymlar"
+msgstr "Instructors"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:170
+msgid "Biziň salgymyz"
+msgstr "Address"
+
+#: .\eserSite\templates\eserSite\layout\basic.html:172
+msgid "şäher Mary 19-nji fewral köçesi (Awtomenziliň ýany)"
+msgstr "Mary,19th February Street"
+
+#: .\eserSite\templates\eserSite\mainPage.html:11
+msgid "Esere hoş geldiňiz!"
+msgstr "Welcome to Eser!"
+
+#: .\eserSite\templates\eserSite\mainPage.html:12
+msgid "Size zerur zatlaryň hemmesi bärde!"
+msgstr "All you need is here"
+
+#: .\eserSite\templates\eserSite\mainPage.html:41
+msgid "Gerek ugryňyzy saýlaň!"
+msgstr " Select your course"
+
+#: .\eserSite\templates\eserSite\mainPage.html:42
+msgid "Biziň kurslarymyz bilen tanyşyň"
+msgstr " Learn more about our courses"
+
+#: .\eserSite\templates\eserSite\mainPage.html:53
+msgid "Iňlis dili size täze mümkinçilikler açýar"
+msgstr "English is the path to new opportunities"
+
+#: .\eserSite\templates\eserSite\mainPage.html:60
+msgid "Hytaý dili - durmuşdaky wajyp dilleri biri."
+msgstr "Discover the world of Chinese language "
+
+#: .\eserSite\templates\eserSite\mainPage.html:68
+msgid "Rus dili - durmuşdaky wajyp dilleri biri."
+msgstr " Discover the world of Russian language"
+
+#: .\eserSite\templates\eserSite\mainPage.html:75
+msgid "Ewropada iň meşhur ikinji dil."
+msgstr "one of the most popular language in Europe"
+
+#: .\eserSite\templates\eserSite\mainPage.html:81
+msgid "Kompýuter tehnologiýalar"
+msgstr "Computer technology"
+
+#: .\eserSite\templates\eserSite\mainPage.html:82
+msgid "Döwür bilen deň bol"
+msgstr " Stay up to date"
+
+#: .\eserSite\templates\eserSite\mainPage.html:89
+msgid "Has mertler üçin"
+msgstr " For the bravest students "
+
+#: .\eserSite\templates\eserSite\mainPage.html:100
+msgid "Eser barada maglumatlar"
+msgstr "Eser info"
+
+#: .\eserSite\templates\eserSite\mainPage.html:101
+msgid ""
+"Has giňişleýin maglumat üçin işgärlerimize ýüz tutmagyňyzy haýyş edýäris."
+msgstr "please contact our team to get more information "
+
+#: .\eserSite\templates\eserSite\mainPage.html:116
+msgid "Okuwçylarymyzyň we olaryň ene-atalaryň synlary"
+msgstr "Feedback"
+
+#: .\eserSite\templates\eserSite\vacancies.html:24
+msgid "Wakant ýerler"
+msgstr "Vacancies"
+
+#: .\eserSite\templates\eserSite\vacancies.html:34
+msgid "Iş tejribesi: "
+msgstr "work experience"
+
+#: .\eserSite\templates\eserSite\vacancies.html:35
+msgid "Talap: "
+msgstr "Requirements"
+
+#: .\samplesite\settings.py:107
+msgid "Turkmen"
+msgstr "Turkmen"
+
+#: .\samplesite\settings.py:108
+msgid "English"
+msgstr "English"
+
+#: .\samplesite\settings.py:109
+msgid "Russian"
+msgstr "Russian"

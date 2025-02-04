@@ -1,0 +1,205 @@
+{% extends "eserSite/layout/basic.html" %}
+
+{% block mainPage %}
+{% load i18n %}
+<div class="banner-wraper text-center" id="Banner">
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2 text-center">
+                            <h2>{%trans 'Esere hoş geldiňiz!'%}</h2>
+                            <h4>{%trans 'Size zerur zatlaryň hemmesi bärde!'%}</h4>
+                        </div>
+                         <div class="col-sm-12 ">
+                            <div class="feedback-slider owl-carousel owl-theme ">
+                                <div class="owl-items ">
+                                    <div class="feedback-div">
+                                        <img src="../../../static/eserSite/images/class1.png" alt="banner" class="banner-img">
+                                    </div>
+                                </div>
+                                <div class="owl-items">
+                                    <div class="feedback-div">
+                                      <img src="../../../static/eserSite/images/class2.png" alt="banner" class="banner-img">
+                                    </div>
+                                </div>
+                                <div class="owl-items">
+                                    <div class="feedback-div">
+                                       <img src="../../../static/eserSite/images/class3.png" alt="banner" class="banner-img">
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+
+     </div>
+        <div class="service-wrapper" id="Feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3 text-center page-nav pt-0">
+                        <h2 class="mb-3 text-center" >{%trans 'Gerek ugryňyzy saýlaň!'%}</h2>
+                        <p>{%trans 'Biziň kurslarymyz bilen tanyşyň'%}</p>
+                    </div>
+                </div>
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="symptom owl-carousel owl-theme">
+                                <div class="owl-items">
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="england"><img class="category_pictures" src="../../../static/eserSite/images/british.png" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Iňlis dili'%}</h4>
+                                        <p>{%trans 'Iňlis dili size täze mümkinçilikler açýar'%}</p>
+                                    </div>
+                                </div>
+                                <div class="owl-items " >
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="chine"><img class="category_pictures" src="../../../static/eserSite/images/chine.png" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Hytaý dili'%}</h4>
+                                        <p> {%trans 'Hytaý dili - durmuşdaky wajyp dilleri biri.'%}</p>
+                                    </div>
+                                </div>
+
+                                <div class="owl-items " >
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="russia"><img class="category_pictures" src="../../../static/eserSite/images/russia.png" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Rus dili'%}</h4>
+                                        <p>{%trans 'Rus dili - durmuşdaky wajyp dilleri biri.'%}</p>
+                                    </div>
+                                </div>
+                                  <div class="owl-items " >
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="germany"><img class="category_pictures" src="../../../static/eserSite/images/germany.png" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Nemes dili'%}</h4>
+                                        <p> {%trans 'Ewropada iň meşhur ikinji dil.'%}</p>
+                                    </div>
+                                </div>
+                                <div class="owl-items " >
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="komp"><img class="category_pictures" src="../../../static/eserSite/images/komp.jpeg" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Kompýuter tehnologiýalar'%}</h4>
+                                        <p>{%trans 'Döwür bilen deň bol'%}</p>
+                                    </div>
+                                </div>
+                                 <div class="owl-items " >
+                                    <div class="service-div">
+                                        <a href="#"><div class="one-no language_type" id="math"><img  class="category_pictures" src="../../../static/eserSite/images/maths.jpg" alt=""></div></a>
+                                        <h4 class="mb-3">{%trans 'Matematika'%}</h4>
+                                        <p>{%trans 'Has mertler üçin'%}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="container" id="Download">
+                    <div class="row pt150">
+                        <div class="col-md-4 page-nav pt-0">
+                            <h2 class="mb-3">{%trans 'Eser barada maglumatlar'%}</h2>
+                            <p class="pl-0">{%trans 'Has giňişleýin maglumat üçin işgärlerimize ýüz tutmagyňyzy haýyş edýäris.'%}</p>
+                          <a href="https://www.psu.by/en/">
+                              <h2>+99362880581</h2>
+                            <img src="../../../static/eserSite/images/eser_logo_black.png" alt="image" class="mt-4">
+                          </a>
+                        </div>
+                        <div class="col-md-8">
+                            <img src="../../../static/eserSite/images/class4.jpg" alt="image" class="mobile-banner">
+                        </div>
+                    </div>
+            </div>
+</div>
+
+<div class="feedback-wrap" id="Feedback">
+    <div class="col-xl-8 offset-xl-2 text-center">
+                            <h2 class="title_comment">{%trans 'Okuwçylarymyzyň we olaryň ene-atalaryň synlary'%}</h2>
+                        </div>
+            <div class="container">
+                <div class="row">
+                    <img src="../../../static/eserSite/images/quote-left.png" alt="image" class="quote">
+                    <div class="col-sm-10 offset-sm-1">
+                        <div class="feedback-slider owl-carousel owl-theme">
+                            	{% for comments in comments%}
+                            <div class="owl-items">
+                                <div class="feedback-div">
+                                    <h4>{{comments.сomment_description}}</h4>
+                                    <div class="avater">
+                                        <img src="../../../static/eserSite/images/user_comment.png" alt="user">
+                                        <h6>{{comments.comment_name}}</h6>
+                                        <span>{{comments.comment_avtor}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block javascript %}
+    <script src="../../../static/eserSite/js/plugin.js"></script>
+    <script src="../../../static/eserSite/js/jquery.easing.1.3.js"></script>
+    <script src="../../../static/eserSite/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../static/eserSite/js/scripts.js"></script>
+    <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+    <script>var player = fluidPlayer('example-player');</script>
+    <script>
+       document.getElementById("language_selector").addEventListener("change", () => {
+            $.ajax({
+                url: '/' + document.getElementById("language_selector").value,
+                type: 'get',
+                success: function (response) {
+                    $('.main_page').html(response)
+                }
+                })
+        });
+
+        $('.language_type').click(function () {
+        $.ajax({
+            url: '/' + this.id,
+            type: 'get',
+            success: function (response) {
+                $('.main_page').html(response)
+            }
+        })
+        })
+
+        $('.vacanciesInfo').click(function () {
+        $.ajax({
+            url: '/'+'vacancies',
+            type: 'get',
+            success: function (response) {
+                $('.main_page').html(response)
+            }
+            })
+        })
+
+        $('.add_comment').click(function () {
+            $.ajax({
+                url: '/bidCreate',
+                type: 'get',
+                success: function (response) {
+                    $('.modal-body').html(response)
+                }
+            })
+
+        })
+
+    </script>
+
+{% endblock javascript %}
