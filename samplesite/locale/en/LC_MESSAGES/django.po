@@ -117,6 +117,10 @@ msgstr "Learn more about instructors"
 msgid "Iş tejribesi:"
 msgstr " Experience"
 
+#: .\eserSite\templates\eserSite\TeacherInfo.html:34
+msgid "ýokary"
+msgstr "higher education"
+
 #: .\eserSite\templates\eserSite\TeacherInfo.html:33
 msgid "ýyl"
 msgstr " Year"

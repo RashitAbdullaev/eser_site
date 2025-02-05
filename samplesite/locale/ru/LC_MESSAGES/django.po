@@ -117,6 +117,11 @@ msgstr "Вся информация о учителях"
 msgid "Iş tejribesi:"
 msgstr "Опыт"
 
+
+#: .\eserSite\templates\eserSite\TeacherInfo.html:34
+msgid "ýokary"
+msgstr "Высшее"
+
 #: .\eserSite\templates\eserSite\TeacherInfo.html:33
 msgid "ýyl"
 msgstr "год"
