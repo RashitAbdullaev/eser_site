@@ -128,7 +128,7 @@ msgstr "год"
 
 #: .\eserSite\templates\eserSite\TeacherInfo.html:34
 msgid "Bilimi:"
-msgstr "Образование"
+msgstr "Образование:"
 
 #: .\eserSite\templates\eserSite\VideoList.html:20
 msgid "Çäreler!"
